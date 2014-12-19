@@ -1,0 +1,19 @@
+<div class="container form-bg">
+
+      <form class="form-signin" role="form" method="POST" >
+        <h2 class="form-signin-heading">Microblog - 登录</h2>
+        <input type="text" class="form-control" placeholder="Username" name="username" required autofocus >
+        <input type="password" class="form-control" placeholder="Password" required name="password">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+      </form>
+
+</div> <!-- /container -->
+<script>
+    
+    $(function(){
+      $(".nav li a[href='/login']").parent().attr("class","active");
+    });
+</script>

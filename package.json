@@ -1,0 +1,20 @@
+{
+    "name": "microblog",
+    "version": "1.0.0",
+    "author": "lyaohe",
+    "description": "《node.js开发指南》的Mircroblog案例应用",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+    	"express": "3.4.8",
+	    "ejs": "*",
+	    "express-partials":"*",
+	    "mongodb":">= 0.9.9",
+        "connect":"2.27.6",
+        "mongoose":"*",
+        "session-mongoose":"*",
+        "connect-flash": "*"
+    }
+}
+
