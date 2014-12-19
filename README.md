@@ -7,7 +7,7 @@
 ## 2个问题
 
 ### db auth
-- mongodb数据库的用户名和密码验证
+mongodb数据库的用户名和密码验证
 
 参考了BAE的mongodb连接的node.js代码,轻松能解决
 
@@ -15,7 +15,7 @@
 
 
 ### session
-- 使用mongodb来存储session,此操作是长连接,BAE不允许长连接,会到出现500或501错误
+使用mongodb来存储session,此操作是长连接,BAE不允许长连接,会到出现500或501错误
 
 在多番查找和研究,把connect-mongo和session-mongoose两个模块的github文档来了一偏又一遍来研究如何短连接或断开后重连.
 
